@@ -24,7 +24,7 @@
         <nav>
           <ul class="site-navi">
             <li class="navi-item">
-              <a class="navi-item-link" href="./Agencja">Agencja</a>
+              <a class="navi-item-link active" href="./Agencja">Agencja</a>
             </li>
             <li class="navi-item">
               <a class="navi-item-link" href="./portfolio.html">Portfolio</a>
@@ -58,7 +58,7 @@
       <section class="title">
         <div class="container">
           <h1 class="title-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="title-button" type="button">Zamów usługe</button>
+          <button class="title-button" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
       <section class="section">
@@ -119,28 +119,37 @@
           <h2 class="section-title">Czym się zajmujemy</h2>
           <ul class="what-we-do-list">
             <li class="what-we-do-item">
-              <img
+              <div class="what-we-do-box">
+                <img
                 src="images/img 1.jpg"
                 alt="Człowiek piszący na klawiaturze od komputera"
                 width="370"
                 height="294"
-              />
+                />
+                <p class="what-we-do-box-text">aplikacje komputerowe</p>
+                </div>
             </li>
             <li class="what-we-do-item">
+              <div class="what-we-do-box">
               <img
                 src="images/img 2.jpg"
                 alt="Człowiek trzymający telefon przed laptopem"
                 width="370"
                 height="294"
               />
+              <p class="what-we-do-box-text">aplikacje mobilne</p>
+              </div>
             </li>
             <li class="what-we-do-item">
+              <div class="what-we-do-box">
               <img
                 src="images/img 3.jpg"
                 alt="Człowiek trzymający tablet z grafiką palety barw"
                 width="370"
                 height="294"
               />
+              <p class="what-we-do-box-text">aplikacje graficzne</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -420,5 +429,11 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>    
   </body>
 </html>
