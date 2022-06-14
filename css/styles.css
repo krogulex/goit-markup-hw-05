@@ -122,6 +122,8 @@ header {
   text-decoration: none;
   color: #757575;
   fill: #757575;
+  display: flex;
+  align-items: center;
 }
 .contact-icon {
   width: 16px;
@@ -264,7 +266,6 @@ header {
 /* OUR TEAM */
 .our-team {
   background-color: #f5f4fa;
-  width: 1600px;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
