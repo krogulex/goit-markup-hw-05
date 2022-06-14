@@ -501,7 +501,10 @@ header {
 .box:focus .overlay {
   transform: translateY(0);
 }
-
+.box-hidden {
+  position: relative;
+  overflow: hidden;
+}
 .box-text {
 }
 .box-name {
