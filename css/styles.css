@@ -578,7 +578,8 @@ header {
   pointer-events: none;
 }
 /* END MODAL WINDOW*/
-/*  animation: scaling 2000ms linear 250ms 1 normal; */
+
+/*  animation: scale 2000ms linear 250ms 1 normal; */
 
 /* Pytania do mentora
 .close-btn-icon nie jest wyśrodkowany idealnie na środku.
